@@ -169,7 +169,7 @@ static void dump_header_info(log_t* log) {
   char revision[PROPERTY_VALUE_MAX];
   char xosp_version[PROPERTY_VALUE_MAX];
 
-  property_get("ro.xosp.version", xosp_version, "unknown");
+  property_get("ro.xosp.display.version", xosp_version, "unknown");
   property_get("ro.build.fingerprint", fingerprint, "unknown");
   property_get("ro.revision", revision, "unknown");
 
